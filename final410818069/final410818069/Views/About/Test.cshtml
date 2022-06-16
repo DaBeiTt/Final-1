@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    string[] fruits = { "蘋果" , "香蕉", "荔枝", "鳳梨", "西瓜" };
+}
+
+<br>
+<p1>學號：410818069</p1>
+<br><br>
+<p2>姓名：蕭念敔</p2>
+<br>
+
+@for(int i = 0;i<5;i++){ 
+    <ol>
+        @i: @fruits[@i] 
+    </ol>
+}
+
+
